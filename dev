@@ -1,0 +1,25 @@
+ user@DESKTOP-12MCCAQ  ~  cd code
+ user@DESKTOP-12MCCAQ  ~/code  ls
+first-deploy  nextjs-dashboard
+ user@DESKTOP-12MCCAQ  ~/code  cd nextjs-dashboard
+ user@DESKTOP-12MCCAQ  ~/code/nextjs-dashboard   main  npm run dev
+
+> dev
+> next dev --turbopack
+
+   ▲ Next.js 15.3.2 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://10.255.255.254:3000
+
+ ✓ Starting...
+ ✓ Ready in 1351ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1395ms
+ GET / 200 in 1646ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 581ms
+ GET /login 404 in 611ms
+ GET /login 404 in 50ms
+ GET / 200 in 57ms
+^C
+
